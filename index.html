@@ -1,277 +1,378 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fernanda Nunes - Desenvolvedor Frontend</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fernanda Nunes - Desenvolvedor Frontend</title>
+    <link rel="stylesheet" href="src/css/font-awesome.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
 
-  <link rel="stylesheet" href="src/css/font-awesome.css" />
-  <link rel="stylesheet" href="src/css/reset.css" />
-  
-  <!-- Global -->
-  <link rel="stylesheet" href="src/css/globais.css" />
-  <link rel="stylesheet" href="src/css/variaveis.css" />
-  <link rel="stylesheet" href="src/css/secoes/header.css" />
-  <link rel="stylesheet" href="src/css/secoes/home.css" />
-  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
-  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
-  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
-  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+    <!-- Global -->
+    <link rel="stylesheet" href="src/css/globais.css" />
+    <link rel="stylesheet" href="src/css/variaveis.css" />
+    <link rel="stylesheet" href="src/css/secoes/header.css" />
+    <link rel="stylesheet" href="src/css/secoes/home.css" />
+    <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+    <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+    <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+    <link rel="stylesheet" href="src/css/secoes/footer.css" />
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+  </head>
 
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="row justify-content-between alinhar-itens-no-centro">
-        <a href="#">
-          <h1 class="logo">FN</h1>
-        </a>
-        <nav>
-          <input id="menu-hamburguer" type="checkbox" />
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-between alinhar-itens-no-centro">
+          <a href="#">
+            <h1 class="logo">FN</h1>
+          </a>
+          <nav>
+            <input id="menu-hamburguer" type="checkbox" />
 
-          <label for="menu-hamburguer">
-            <div class="menu">
-              <span class="hamburguer"></span>
+            <label for="menu-hamburguer">
+              <div class="menu">
+                <span class="hamburguer"></span>
+              </div>
+            </label>
+            <ul>
+              <li><a href="#sobre-mim">Sobre mim</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#projetos">Meus projetos</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="home">
+      <div class="container">
+        <div class="row full-screen alinhar-itens-no-centro">
+          <div class="texto-home">
+            <p>Olá 🖖,</p>
+            <h1>Sou a Fernanda Nunes</h1>
+            <h2>Desenvolvedor Frontend</h2>
+
+            <div class="redes-sociais">
+              <a
+                href="https://www.linkedin.com/in/fernanda-nunesdev"
+                target="_blank"
+                class="outer-shadow"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                href="https://wa.me/5511997412056"
+                target="_blank"
+                class="outer-shadow"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a
+                href="https://github.com/fernanda-nunes"
+                target="_blank"
+                class="outer-shadow"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/fe_onunes/"
+                target="_blank"
+                class="outer-shadow"
+                ><i class="fab fa-instagram"></i
+              ></a>
             </div>
-          </label>
-          <ul>
-            <li><a href="#sobre-mim">Sobre mim</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#projetos">Meus projetos</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <section class="home">
-    <div class="container">
-      <div class="row full-screen alinhar-itens-no-centro">
-        <div class="texto-home">
-          <p>Olá 🖖,</p>
-          <h1>Sou a Fernanda Nunes</h1>
-          <h2>Desenvolvedor Frontend</h2>
-
-          <div class="redes-sociais">
-            <a href="https://www.linkedin.com/in/fernanda-nunesdev" target="_blank" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://wa.me/5511997412056" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://github.com/fernanda-nunes" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
-           <a href="https://www.instagram.com/fe_onunes/" target="_blank" class="outer-shadow"><i class="fab fa-instagram"></i></a>
           </div>
-        </div>
 
-        <div class="img-home">
-          <div class="img-box inner-shadow">
-            <img class="outer-shadow" src="./src/imagens/Perfil.jpg" alt="foto do perfil do Ricardo" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="sobre-mim section" id="sobre-mim">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Sobre mim</h2>
-        </div>
-      </div>
-      <div class="row">
-        
-        <div class="informacoes-sobre-mim">
-          <p>
-            <strong>Sou uma desenvolvedora frontend em formação! </strong>
-          </p>
-
-          <p>Estou em transição de área, atuava na área de Governança de TI e em 2026 iniciei  meus estudos focados em programação.</p>
-              
-          <p> Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
-          </p>
-
-          <p>
-            Ah, gosto de música, natureza, esporte, filmes, séries... 💜
-          </p>
-
-          <div class="botoes">
-            <a target="_blank" href="./src/arquivos/Fernanda de Oliveira Nunes.pdf" class="botao outer-shadow">Veja meu CV</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="habilidades section" id="habilidades">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Habilidades</h2>
-        </div>
-      </div>
-
-      <div class="container-habilidades">
-        <div class="informacoes javascript">
-          <div class="logo">
-            <i class="devicon devicon-javascript-plain" id="javascript"></i>
-          </div>
-          <h3>JavaScript</h3>
-          <p>Desenvolvimento de interfaces dinâmicas utilizando ES6+, manipulação do DOM, 
-            consumo de APIs, funções assíncronas, módulos e boas práticas de código.</p>
-        </div>
-
-        <div class="informacoes html">
-          <div class="logo">
-            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
-          </div>
-          <h3>HTML5</h3>
-          <p>Criação de páginas semânticas, acessíveis e bem estruturadas,
-              seguindo as recomendações da Web e boas práticas.</p>
-        </div>
-
-        <div class="informacoes css">
-          <div class="logo">
-            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
-          </div>
-          <h3>CSS3</h3>
-          <p>Desenvolvimento de layouts responsivos com Flexbox e Grid,
-              animações, variáveis CSS e organização de estilos de forma escalável.</p>
-        </div>
-
-        <div class="informacoes github">
-          <div class="logo">
-            <i class="devicon devicon-github-original" id="github"></i>
-          </div>
-          <h3>GitHub</h3>
-          <p>Versionamento de projetos, hospedagem com GitHub Pages,
-             colaboração em repositórios.</p>
-        </div>
-
-        <div class="informacoes git">
-          <div class="logo">
-            <i class="devicon devicon-git-plain" id="git"></i>
-          </div>
-          <h3>Git</h3>
-          <p>Controle de versões utilizando branches, commits semânticos, pull requests e fluxo básico de desenvolvimento.</p>
-        </div>
-
-         <div class="informacoes react">
-          <div class="logo">
-            <i class="devicon devicon-react-plain" id="react"></i>
-          </div>
-          <h3>React</h3>
-          <p>Desenvolvimento de interfaces modernas utilizando componentes reutilizáveis, Hooks, gerenciamento de estado, roteamento e boas práticas.</p>
-        </div>
-
-        <div class="informacoes typescript">
-          <div class="logo">
-            <i class="devicon devicon-typescript-plain" id="typescript"></i>
-          </div>
-          <h3>TypeScript</h3>
-          <p>Desenvolvimento com tipagem estática para criar aplicações mais seguras, organizadas e escaláveis, aproveitando os recursos modernos do JavaScript.</p>
-        </div>
-
-        <div class="informacoes tailwind">
-          <div class="logo">
-            <i class="devicon devicon-tailwindcss-plain" id="tailwind"></i>
-          </div>
-          <h3>Tailwind CSS</h3>
-          <p>Criação de interfaces responsivas utilizando classes utilitárias,
-             acelerando o desenvolvimento e mantendo um código consistente e organizado.</p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <section class="projetos section" id="projetos">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Meus projetos</h2>
-        </div>
-      </div>
-
-      <div class="container-projetos">
-
-        <div class="projeto">        
-          <a href="https://syntax-wear-app-two.vercel.app/" target="_blank">
-            <img src="./src/imagens/syntax-wear-app.png" alt="Syntax Wear App" />
-            <h3>Syntax Wear App</h3>
-            <div class="informacoes-projeto"> 
-              <p>e-commerce</p>         
-              <p>Projeto feito usando HTML, CSS, JavaScript, TypeScript e React</p>
-              <p>🔗 Ver no Vercel</p>
-            </div>     
-          </a>
-
-        </div>
-
-        <div class="projeto">        
-          <a href="https://fernanda-nunes.github.io/landing-page-agencia-xyz/" target="_blank">
-            <img src="./src/imagens/landing-page-agencia-xyz.png" alt="Landing Page Agência XYZ" />
-            <h3>Landing Page Agência XYZ</h3>
-            <div class="informacoes-projeto">   
-              <p>Landing Page</p>        
-              <p>Projeto feito usando HTML, CSS e JavaScript</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>      
-          </a>
-                  
-        </div>
-
-        <div class="projeto">     
-          <a href="https://fernanda-nunes.github.io/github-api-data-profile/" target="_blank">
-            <img src="./src/imagens/github-api-data-profile.png" alt="GitHub API Data Profile" />
-            <h3>GitHub API Data Profile</h3>
-            <div class="informacoes-projeto">
-              <p>GitHub API Data Profile</p>  
-              <p>Projeto feito usando HTML, CSS e JavaScript.</p>
-              <p>🔗 Ver no GitHub Pages</p>
+          <div class="img-home">
+            <div class="img-box inner-shadow">
+              <img
+                class="outer-shadow"
+                src="./src/imagens/Perfil.jpg"
+                alt="foto do perfil do Ricardo"
+              />
             </div>
-          </a>
-          
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sobre-mim section" id="sobre-mim">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Sobre mim</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="informacoes-sobre-mim">
+            <p>
+              <strong>Sou uma desenvolvedora frontend em formação! </strong>
+            </p>
+
+            <p>
+              Profissional com experiência na área de Governança de TI, com
+              atuação orientada a análise de incidentes críticos, SLA de
+              plataforma, desenvolvimento de relatórios tecnico e responsável
+              pelo gerenciamento de problema. Em transição para Desenvolvimento
+              Web Frontend, adquirindo experiência prática por meio de projetos
+              próprios, aplicando lógica de programação, versionamento com Git.
+            </p>
+
+            <p>
+              Gosto MUITO da área de tecnologia, e tenho certeza que posso
+              contribuir em qualquer time com as minhas habilidades.
+            </p>
+
+            <p>Ah, gosto de música, natureza, esporte, filmes, séries... 💜</p>
+
+            <div class="botoes">
+              <a
+                target="_blank"
+                href="./src/arquivos/Fernanda de Oliveira Nunes.pdf"
+                class="botao outer-shadow"
+                >Veja meu CV</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="habilidades section" id="habilidades">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Habilidades</h2>
+          </div>
         </div>
 
-        <div class="projeto">
-          <a href="https://fernanda-nunes.github.io/advice-generator-app/" target="_blank">
-            <img src="./src/imagens/advice-generator-app.png" alt="Advice Generator App" />
-            <h3>Advice Generator App</h3>
-            <div class="informacoes-projeto">
-              <p>API do Advice Slip</p>
-              <p>Projeto feito usando HTML, CSS e JavaScript.</p>
-              <p>🔗 Ver no GitHub Pages</p>
+        <div class="container-habilidades">
+          <div class="informacoes javascript">
+            <div class="logo">
+              <i class="devicon devicon-javascript-plain" id="javascript"></i>
             </div>
-          </a>
+            <h3>JavaScript</h3>
+            <p>
+              Desenvolvimento de interfaces dinâmicas utilizando ES6+,
+              manipulação do DOM, consumo de APIs, funções assíncronas, módulos
+              e boas práticas de código.
+            </p>
+          </div>
+
+          <div class="informacoes html">
+            <div class="logo">
+              <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>
+              Criação de páginas semânticas, acessíveis e bem estruturadas,
+              seguindo as recomendações da Web e boas práticas.
+            </p>
+          </div>
+
+          <div class="informacoes css">
+            <div class="logo">
+              <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+            </div>
+            <h3>CSS3</h3>
+            <p>
+              Desenvolvimento de layouts responsivos com Flexbox e Grid,
+              animações, variáveis CSS e organização de estilos de forma
+              escalável.
+            </p>
+          </div>
+
+          <div class="informacoes github">
+            <div class="logo">
+              <i class="devicon devicon-github-original" id="github"></i>
+            </div>
+            <h3>GitHub</h3>
+            <p>
+              Versionamento de projetos, hospedagem com GitHub Pages,
+              colaboração em repositórios.
+            </p>
+          </div>
+
+          <div class="informacoes git">
+            <div class="logo">
+              <i class="devicon devicon-git-plain" id="git"></i>
+            </div>
+            <h3>Git</h3>
+            <p>
+              Controle de versões utilizando branches, commits semânticos, pull
+              requests e fluxo básico de desenvolvimento.
+            </p>
+          </div>
+
+          <div class="informacoes react">
+            <div class="logo">
+              <i class="devicon devicon-react-plain" id="react"></i>
+            </div>
+            <h3>React</h3>
+            <p>
+              Desenvolvimento de interfaces modernas utilizando componentes
+              reutilizáveis, Hooks, gerenciamento de estado, roteamento e boas
+              práticas.
+            </p>
+          </div>
+
+          <div class="informacoes typescript">
+            <div class="logo">
+              <i class="devicon devicon-typescript-plain" id="typescript"></i>
+            </div>
+            <h3>TypeScript</h3>
+            <p>
+              Desenvolvimento com tipagem estática para criar aplicações mais
+              seguras, organizadas e escaláveis, aproveitando os recursos
+              modernos do JavaScript.
+            </p>
+          </div>
+
+          <div class="informacoes tailwind">
+            <div class="logo">
+              <i class="devicon devicon-tailwindcss-plain" id="tailwind"></i>
+            </div>
+            <h3>Tailwind CSS</h3>
+            <p>
+              Criação de interfaces responsivas utilizando classes utilitárias,
+              acelerando o desenvolvimento e mantendo um código consistente e
+              organizado.
+            </p>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <section class="projetos section" id="projetos">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Meus projetos</h2>
+          </div>
+        </div>
+
+        <div class="container-projetos">
+          <div class="projeto">
+            <a href="https://syntax-wear-app-two.vercel.app/" target="_blank">
+              <img
+                src="./src/imagens/syntax-wear-app.png"
+                alt="Syntax Wear App"
+              />
+              <h3>Syntax Wear App</h3>
+              <div class="informacoes-projeto">
+                <p>e-commerce</p>
+                <p>
+                  Projeto feito usando HTML, CSS, JavaScript, TypeScript e React
+                </p>
+                <p>🔗 Ver no Vercel</p>
+              </div>
+            </a>
+          </div>
 
           <div class="projeto">
-          <a href="https://fernanda-nunes.github.io/acordeon-page/" target="_blank">
-            <img src="#" alt="Arcodeon Page" />
-            <h3>Arcodeon Page</h3>
-            <div class="informacoes-projeto">
-              <p>Arcodeon Page</p>
-              <p>Projeto feito usando HTML, CSS e JavaScript.</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>
-          </a>
+            <a
+              href="https://fernanda-nunes.github.io/landing-page-agencia-xyz/"
+              target="_blank"
+            >
+              <img
+                src="./src/imagens/landing-page-agencia-xyz.png"
+                alt="Landing Page Agência XYZ"
+              />
+              <h3>Landing Page Agência XYZ</h3>
+              <div class="informacoes-projeto">
+                <p>Landing Page</p>
+                <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a
+              href="https://fernanda-nunes.github.io/github-api-data-profile/"
+              target="_blank"
+            >
+              <img
+                src="./src/imagens/github-api-data-profile.png"
+                alt="GitHub API Data Profile"
+              />
+              <h3>GitHub API Data Profile</h3>
+              <div class="informacoes-projeto">
+                <p>GitHub API Data Profile</p>
+                <p>Projeto feito usando HTML, CSS e JavaScript.</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a
+              href="https://fernanda-nunes.github.io/advice-generator-app/"
+              target="_blank"
+            >
+              <img
+                src="./src/imagens/advice-generator-app.png"
+                alt="Advice Generator App"
+              />
+              <h3>Advice Generator App</h3>
+              <div class="informacoes-projeto">
+                <p>API do Advice Slip</p>
+                <p>Projeto feito usando HTML, CSS e JavaScript.</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a
+              href="https://fernanda-nunes.github.io/acordeon-page/"
+              target="_blank"
+            >
+              <img src="#" alt="Arcodeon Page" />
+              <h3>Arcodeon Page</h3>
+              <div class="informacoes-projeto">
+                <p>Arcodeon Page</p>
+                <p>Projeto feito usando HTML, CSS e JavaScript.</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer class="footer">
-    <div class="container">
-      <h2>Me envie uma mensagem!</h2>
-      <div class="redes-sociais">
-        <a href="https://www.linkedin.com/in/fernanda-nunesdev" target="_blank" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://wa.me/5511997412056" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
-        <a href="https://github.com/fernanda-nunes" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
-        <a href="https://www.instagram.com/fe_onunes/" target="_blank" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+    <footer class="footer">
+      <div class="container">
+        <h2>Me envie uma mensagem!</h2>
+        <div class="redes-sociais">
+          <a
+            href="https://www.linkedin.com/in/fernanda-nunesdev"
+            target="_blank"
+            class="outer-shadow"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://wa.me/5511997412056"
+            target="_blank"
+            class="outer-shadow"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+          <a
+            href="https://github.com/fernanda-nunes"
+            target="_blank"
+            class="outer-shadow"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/fe_onunes/"
+            target="_blank"
+            class="outer-shadow"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
