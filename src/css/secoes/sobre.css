@@ -1,13 +1,9 @@
-/* SOBRE MIM */
-.sobre-mim .imagem-sobre-mim {    
-    max-width: 40%;
-    padding: 0 15px;
-}
 
-.sobre-mim .informacoes-sobre-mim {    
+.sobre-mim .informacoes-sobre-mim { 
+    display: flex;   
     max-width: 60%;
     padding: 0 25px;   
-    align-self: center; 
+    align-self:flex-start; 
 }
 
 .sobre-mim .informacoes-sobre-mim .botoes {
