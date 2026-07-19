@@ -3,7 +3,8 @@
     display: flex;   
     max-width: 60%;
     padding: 0 25px;   
-    align-self:flex-start; 
+    align-self: center; 
+    flex-direction: column;
 }
 
 .sobre-mim .informacoes-sobre-mim .botoes {
